@@ -132,39 +132,42 @@ User can:
 
 # 📂 Project Structure
 
-AI-Driven-Code-Reviewer/
+AI-Driven-Code-Reviewer
 │
-├── frontend/                        # React Frontend
-│   ├── src/
-│   │   ├── app/
-│   │   │   └── App.tsx             # Main UI Layout
-│   │   │
-│   │   ├── components/
-│   │   │   ├── CodeEditor.tsx
-│   │   │   ├── AIAnalysisPanel.tsx
-│   │   │   ├── Sidebar.tsx
-│   │   │   ├── TopBar.tsx
-│   │   │   ├── ComplexityMeter.tsx
-│   │   │   ├── TerminalPanel.tsx
-│   │   │   └── FileExplorer.tsx
-│   │   │
-│   │   ├── main.tsx
-│   │   └── styles/
+├── 🎨 frontend                     # React + TypeScript Client
 │   │
-│   ├── package.json
-│   └── vite.config.ts
+│   ├── 📂 src
+│   │   ├── 📂 app
+│   │   │   └── 🧠 App.tsx               # Main Application Layout
+│   │   │
+│   │   ├── 📂 components
+│   │   │   ├── ⌨️ CodeEditor.tsx
+│   │   │   ├── 🤖 AIAnalysisPanel.tsx
+│   │   │   ├── 📁 FileExplorer.tsx
+│   │   │   ├── 📊 ComplexityMeter.tsx
+│   │   │   ├── 🧭 Sidebar.tsx
+│   │   │   ├── 🔝 TopBar.tsx
+│   │   │   └── 💻 TerminalPanel.tsx
+│   │   │
+│   │   ├── ⚡ main.tsx
+│   │   └── 🎨 styles/
+│   │
+│   ├── 📦 package.json
+│   └── ⚙️ vite.config.ts
 │
-├── backend/                        # FastAPI Backend
-│   └── app/
-│       ├── main.py                 # FastAPI entry point
-│       ├── config.py               # Environment configuration
-│       ├── database.py             # Database connection
-│       ├── models.py               # Database models
-│       ├── schemas.py              # API schemas
+├── ⚙️ backend                      # FastAPI Server
+│   │
+│   └── 📂 app
 │       │
-│       ├── auth/                  # Authentication module
+│       ├── 🚀 main.py                  # API Entry Point
+│       ├── 🔧 config.py                # Configuration
+│       ├── 🗄️ database.py              # DB Connection
+│       ├── 🧱 models.py                # DB Models
+│       ├── 📑 schemas.py               # Validation Schemas
 │       │
-│       ├── routes/                # API routes
+│       ├── 🔐 auth/                   # Authentication
+│       │
+│       ├── 🌐 routes                  # API Endpoints
 │       │   ├── review.py
 │       │   ├── auth_routes.py
 │       │   ├── github.py
@@ -172,27 +175,28 @@ AI-Driven-Code-Reviewer/
 │       │   ├── history.py
 │       │   └── terminal.py
 │       │
-│       ├── engines/               # AI processing engines
-│       │   ├── ai/
+│       ├── 🧠 engines                 # AI Processing Core
+│       │   │
+│       │   ├── 🤖 ai
 │       │   │   ├── openai_reviewer.py
 │       │   │   ├── ai_provider.py
 │       │   │   └── optimization.py
 │       │   │
-│       │   ├── detection.py
+│       │   ├── 🔍 detection.py
 │       │   │
-│       │   ├── ast/
+│       │   ├── 🌳 ast
 │       │   │   └── analyzer.py
 │       │   │
-│       │   └── security/
+│       │   └── 🛡️ security
 │       │       └── vulnerability_scanner.py
 │       │
-│       ├── services/
+│       ├── 🧩 services
 │       │   ├── scoring_service.py
 │       │   └── github_service.py
 │       │
-│       └── requirements.txt
+│       └── 📜 requirements.txt
 │
-├── demo.mp4                       # Project demo video
-├── presentation.pdf               # Project presentation
-├── README.md                     # Documentation
-└── .env                          # Environment variables
+├── 🎥 demo.mp4                     # Demo Video
+├── 📊 presentation.pdf            # Project Presentation
+├── 📘 README.md                   # Documentation
+└── 🔑 .env                        # Environment Variables
