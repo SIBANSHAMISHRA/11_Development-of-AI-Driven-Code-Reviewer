@@ -1,34 +1,208 @@
-# 11_Development-of-AI-Driven-Code-Reviewer
-# AI-Driven Code Reviewer (Individual Project)
+# 🚀 AI-Driven Code Reviewer
 
-## Overview
-This project is an individual implementation of an AI-driven code reviewer designed
-to analyze Python programs and provide automated feedback. The system reviews code
-structure without executing it, making the analysis safe and suitable for academic use.
-
-The project is divided into three individual components:
-- Model Research
-- Python Task
-- SQL Task
+An intelligent AI-powered platform that automatically analyzes student code and provides professional review, optimization suggestions, and quality score.
 
 ---
 
-## Model Research
-The model research focuses on understanding static code analysis techniques.
-Python’s Abstract Syntax Tree (AST) is used to analyze program structure and detect
-common programming issues. A rule-based approach is followed to generate feedback.
-AI-based enhancements are considered as future scope.
+# 🌐 Live Deployment
+
+🔗 Live Demo:
+
+[https://code-mind-reviewer--rahulsecret2004.replit.app/](https://code-mind-reviewer--rahulsecret2004.replit.app)
 
 ---
 
-## Python Task
-The Python module analyzes student-written Python code using AST. It identifies:
-- Defined functions
-- Structural issues such as long functions
-- Basic syntax problems
+# 🎥 Project Demo Video
 
-The analysis is performed without running the code.
+Click below to watch full demo:
 
-### How to Run Python Task
-```bash
-python python_task.py
+https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/blob/main/demo.mp4
+
+---
+
+# 📌 Project Overview
+
+Manual code review is:
+
+• Slow  
+• Inconsistent  
+• Not scalable  
+
+This project solves this using:
+
+• Artificial Intelligence  
+• AST Analysis  
+• Automated Review Engine  
+
+---
+
+# 🧠 Key Features
+
+✔ AI Code Review using GPT  
+✔ Bug Detection  
+✔ Optimization Suggestions  
+✔ Security Analysis  
+✔ Complexity Analysis  
+✔ Quality Score Generation  
+✔ Review History Storage  
+
+---
+
+# 🧱 System Architecture
+
+Flow:
+
+User Code Input  
+↓  
+React Frontend  
+↓  
+FastAPI Backend  
+↓  
+AST Parser  
+↓  
+OpenAI GPT API  
+↓  
+Review Generator  
+↓  
+Database Storage  
+↓  
+Results Display  
+
+---
+
+# 🛠 Tech Stack
+
+Frontend:
+
+• React  
+• TypeScript  
+• TailwindCSS  
+
+Backend:
+
+• FastAPI  
+• Python  
+
+Database:
+
+• PostgreSQL (NeonDB)
+
+AI:
+
+• OpenAI GPT-4 API  
+
+Deployment:
+
+• Replit  
+
+Version Control:
+
+• GitHub  
+
+---
+
+# 🤖 AI Integration
+
+Uses:
+
+OpenAI GPT API for:
+
+• Code Review  
+• Optimization  
+• Suggestions  
+
+AST Parser for:
+
+• Structure Analysis  
+• Complexity  
+
+---
+
+# 📊 Features Demonstrated
+
+User can:
+
+✔ Write code  
+✔ Click Review  
+✔ Get AI Feedback  
+✔ View optimization  
+✔ View score  
+
+---
+
+# 📂 Project Structure
+AI-Driven-Code-Reviewer/
+│
+├── frontend/                     # React Frontend
+│   │
+│   ├── src/
+│   │   ├── app/
+│   │   │   └── App.tsx          # Main UI Layout
+│   │   │
+│   │   ├── components/
+│   │   │   ├── CodeEditor.tsx
+│   │   │   ├── AIAnalysisPanel.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── TopBar.tsx
+│   │   │   ├── ComplexityMeter.tsx
+│   │   │   ├── TerminalPanel.tsx
+│   │   │   └── FileExplorer.tsx
+│   │   │
+│   │   ├── main.tsx
+│   │   └── styles/
+│   │
+│   ├── package.json
+│   └── vite.config.ts
+│
+│
+├── backend/                      # FastAPI Backend
+│   │
+│   ├── app/
+│   │   │
+│   │   ├── main.py              # FastAPI entry point
+│   │   │
+│   │   ├── config.py           # Environment configuration
+│   │   │
+│   │   ├── database.py         # Database connection
+│   │   │
+│   │   ├── models.py           # Database models
+│   │   │
+│   │   ├── schemas.py          # API schemas
+│   │   │
+│   │   ├── auth.py             # Authentication logic
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── review.py
+│   │   │   ├── auth_routes.py
+│   │   │   ├── github.py
+│   │   │   ├── files.py
+│   │   │   ├── history.py
+│   │   │   └── terminal.py
+│   │   │
+│   │   ├── engines/
+│   │   │   ├── ai/
+│   │   │   │   ├── openai_reviewer.py
+│   │   │   │   ├── ai_provider.py
+│   │   │   │   ├── optimization.py
+│   │   │   │   └── detection.py
+│   │   │   │
+│   │   │   ├── ast/
+│   │   │   │   └── analyzer.py
+│   │   │   │
+│   │   │   └── security/
+│   │   │       └── vulnerability_scanner.py
+│   │   │
+│   │   └── services/
+│   │       ├── scoring_service.py
+│   │       └── github_service.py
+│   │
+│   └── requirements.txt
+│
+│
+├── demo.mp4                     # Project demo video
+│
+├── presentation.pdf            # Project presentation
+│
+├── README.md                   # Project documentation
+│
+└── .env                        # Environment variables
