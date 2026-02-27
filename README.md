@@ -60,12 +60,6 @@ npm run dev
 
 http://localhost:5173
 
-🔹 Step 5: Start Using the Application
-
-Open browser and go to:
-
-http://localhost:5173
-
 ⚙️ Requirements
 
 Python 3.10+
