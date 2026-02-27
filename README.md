@@ -25,16 +25,25 @@ https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/blob
 Follow these steps to run the AI-Driven Code Reviewer locally on your system.
 
 🔹 Step 1: Clone the Repository
+
 git clone https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer.git
+
 cd 11_Development-of-AI-Driven-Code-Reviewer
+
 🔹 Step 2: Navigate to Project Files
+
 cd "Project Files"
+
 🔹 Step 3: Backend Setup (FastAPI)
+
 cd backend
+
 pip install -r requirements.txt
+
 python main.py
 
 ✅ Backend will run on:
+
 http://localhost:8000
 
 🔹 Step 4: Frontend Setup (React + Vite)
@@ -42,10 +51,13 @@ http://localhost:8000
 Open new terminal:
 
 cd "Project Files/frontend"
+
 npm install
+
 npm run dev
 
 ✅ Frontend will run on:
+
 http://localhost:5173
 
 🔹 Step 5: Start Using the Application
@@ -53,6 +65,7 @@ http://localhost:5173
 Open browser and go to:
 
 http://localhost:5173
+
 ⚙️ Requirements
 
 Python 3.10+
