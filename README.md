@@ -16,7 +16,7 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 
 <p align="center">
 <a href="https://youtu.be/dlL__Qm0IPc">
-<img src="https://img.youtube.com/vi/dIL__Qm0IPc/maxresdefault.jpg" width="800">
+<img src="thumbnail.png" width="800">
 </a>
 </p>
 
