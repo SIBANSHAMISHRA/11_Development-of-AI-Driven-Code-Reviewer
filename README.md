@@ -14,19 +14,12 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 
 ## 🎥 Project Demo
 
-<p align="center">
-
-<a href="https://raw.githubusercontent.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/main/demo.mp4">
-
-<img src="thumbnail.png" width="800" alt="Click to play video">
-
+<a href="demo.mp4">
+<img src="thumbnail.png" width="800">
 </a>
 
-</p>
+🎤 Click above to watch full demo with voice explanation
 
-<p align="center">
-Click the image to play the demo video
-</p>
 
 ---
 
