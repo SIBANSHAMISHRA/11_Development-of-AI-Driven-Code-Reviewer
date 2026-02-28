@@ -15,7 +15,7 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 ## 🎥 Project Demo
 
 <p align="center">
-<a href=["https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/blob/main/demo.mp4"](https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/blob/main/demo.mp4)>
+<a href="https://github.com/SIBANSHAMISHRA/11_Development-of-AI-Driven-Code-Reviewer/blob/main/demo.mp4">
 <img src="thumbnail.png" width="800">
 </a>
 </p>
