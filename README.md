@@ -14,12 +14,11 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 
 ## 🎥 Project Demo
 
-<a href="demo (6).mp4">
+<a href="https://github.com/user-attachments/assets/31ec05d4-390c-4647-b79f-7d5fea74415e">
 <img src="thumbnail.png" width="800">
 </a>
 
 🎤 Click above to watch full demo with voice explanation
-
 
 ---
 
