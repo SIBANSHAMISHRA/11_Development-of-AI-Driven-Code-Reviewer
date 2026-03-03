@@ -20,6 +20,12 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 
 🎤 Click above to watch full demo with voice explanation
 
+
+
+https://github.com/user-attachments/assets/fbb1d04c-1ee7-4505-9e23-73b8e8a932a9
+
+
+
 ---
 
 🛠️ Installation & Setup Guide
