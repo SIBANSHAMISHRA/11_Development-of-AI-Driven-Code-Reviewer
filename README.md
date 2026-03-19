@@ -8,7 +8,7 @@ An intelligent AI-powered platform that automatically analyzes student code and 
 
 🔗 Live Demo:
 
-[https://code-mind-reviewer--rahulsecret2004.replit.app/](https://code-mind-reviewer--rahulsecret2004.replit.app)
+[https://code-mind-reviewer--rahulsecret2004.replit.app/](https://code-mind-reviewer-1--rahulsecret2004.replit.app)
 
 ---
 
